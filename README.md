@@ -14,3 +14,52 @@ sync.sh 보고 원드라이브 실행시키면댐.
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_3.mp4 10
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_4.mp4 10
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_5.mp4 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1	우측-쾌완료-아이콘
+2	우측-쾌받기-텍스트
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	알림-쾌스트수락창-타이틀
+11	알림-쾌스트수락창-확인
+12	전체화면-쾌스트완료-텍스트
+13	전체화면-쾌스트건너뛰기
+14	
+15	
+16	
+17	
+18	
+19	
+20	튜토리얼-시작텍스트
+21	튜토리얼-시작버튼
+22	튜토리얼-건너뛰기
+23	튜토리얼-완료텍스트
+24	
+25	
+26	
+27	
+28	
+29	
+30	뒤로가기
+31	장착
