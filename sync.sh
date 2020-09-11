@@ -1,4 +1,13 @@
 # https://www.linuxuprising.com/2020/02/how-to-keep-onedrive-in-sync-with.html
+# https://github.com/skilion/onedrive
+# https://github.com/skilion/onedrive#configuration
+# https://github.com/skilion/onedrive#selective-sync
+
+
+config
+sync_dir = "/home/cheolgyu/workspace/gamebot-dataset"
+
+
 
 pkill -f onedrive
 onedrive --synchronize --resync

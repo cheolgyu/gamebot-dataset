@@ -4,12 +4,12 @@ import random
 import math
 
 
-project="baram"
-project_id="project_3"
-ratio=0.3
-img_path = "/home/cheolgyu/workspace/gamebot-dataset/ds/ds_baram/img/capture/all"
-txt_path = "/home/cheolgyu/workspace/gamebot-dataset/ds/ds_baram/img/capture/all"
-project_path = "/home/cheolgyu/workspace/gb-yolo/workspace/baram/project_3"
+project="blackdesertm"
+project_id="project_1"
+ratio=0.1
+img_path = "/home/cheolgyu/workspace/gamebot-dataset/ds/ds_blackdesertm/img"
+txt_path = "/home/cheolgyu/workspace/gamebot-dataset/ds/ds_blackdesertm/img"
+project_path = "/home/cheolgyu/workspace/gamebot-yolo/workspace/blackdesertm/project_1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
 

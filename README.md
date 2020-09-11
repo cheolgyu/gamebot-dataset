@@ -6,3 +6,5 @@ gamebot-dataset/ds
 sync.sh 보고 원드라이브 실행시키면댐.
 
 ## a3랑,스톤은 ssd_mobile이고 바람은 yolo 
+
+./yolo_mark ds/ds_blackdesertm/img cap_video ./blackdesertm_2020-09-09-07-52-28.mp4 10
