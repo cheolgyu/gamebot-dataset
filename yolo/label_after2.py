@@ -7,9 +7,9 @@ import math
 project="blackdesertm"
 project_id="project_1"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/v4/project_3"
+img_path = "/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
+txt_path = "/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
+project_path = "/workspace/gamebot/gamebot-yolo/workspace/v4/project_3"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
 
@@ -38,7 +38,7 @@ for i in range(len(all_list)):
     filename = all_list[i]
     train_list.append(filename)
 
-print ("파일생성===================")
+print ("end===================")
 if os.path.isfile(project_train_file):
     os.remove(project_train_file)
 
