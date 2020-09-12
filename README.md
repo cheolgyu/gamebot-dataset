@@ -14,7 +14,7 @@ sync.sh 보고 원드라이브 실행시키면댐.
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_3.mp4 10
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_4.mp4 10
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_5.mp4 10
-
+./yolo_mark ds/ds_v4/img cap_video ./video_6.mp4 10
 
 
 
@@ -34,10 +34,10 @@ sync.sh 보고 원드라이브 실행시키면댐.
 
 1	우측-쾌완료-아이콘
 2	우측-쾌받기-텍스트
-3	하단-자동이동중
-4	
-5	
-6	
+3	자동텍스트
+4	우측쾌비활성-반짝임 -삭제
+5	우측쾌비활성
+6	우측쾌활성
 7	
 8	
 9	
