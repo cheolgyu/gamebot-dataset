@@ -7,9 +7,9 @@ import math
 project="blackdesertm"
 project_id="project_1"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_v4/img"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/v4/project_5"
+img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/img"
+txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/img"
+project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/gotgl/project_4"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
 
@@ -22,7 +22,12 @@ for file in txt_file_list:
         
     if file.endswith(".txt") and getsize(txt_path+"/"+file) > 0 and file.find("netbook") == -1  and file != "classes.txt":
         file_name=file.split(".txt")
-        all_list.append(str("/"+file_name[0]+".jpg"))
+        chk_img = img_path+str("/"+file_name[0]+".jpg")
+        if os.path.isfile(chk_img):
+            all_list.append(str("/"+file_name[0]+".jpg"))
+        else:
+            os.remove(txt_path+"/"+file)
+            
    
 valid_list=[]
 train_list=[]
