@@ -18,6 +18,8 @@ sync.sh 보고 원드라이브 실행시키면댐.
 
 
 ./yolo_mark ds/ds_gotgl/img cap_video ./gotgl_video_1.mp4 10
+./yolo_mark ds/ds_gotgl/img cap_video /home/cheolgyu/다운로드/gotgl_video_2.mp4  10
+./yolo_mark ds/ds_gotgl/img cap_video /home/cheolgyu/다운로드/gotgl_video_3.mp4  10
 
 ./yolo_mark ./ds/ds_gotgl/img ./train.txt ./data.names
 
