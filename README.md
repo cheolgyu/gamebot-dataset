@@ -18,12 +18,22 @@ sync.sh 보고 원드라이브 실행시키면댐.
 
 
 ./yolo_mark ds/ds_gotgl/img cap_video ./gotgl_video_1.mp4 10
-./yolo_mark ds/ds_gotgl/img cap_video /home/cheolgyu/다운로드/gotgl_video_2.mp4  10
-./yolo_mark ds/ds_gotgl/img cap_video /home/cheolgyu/다운로드/gotgl_video_3.mp4  10
+./yolo_mark ds/ds_gotgl_tmp/img cap_video /home/cheolgyu/다운로드/gotgl_video_4.mp4  5
+./yolo_mark ds/ds_gotgl_tmp/img cap_video /home/cheolgyu/다운로드/gotgl_video_5.mp4  5
 
 ./yolo_mark ./ds/ds_gotgl/img ./train.txt ./data.names
 
-
+```
+0. 수령
+1. 도움
+2. 수령확인
+3. 상태바- > 할리스아이콘으로
+4. 식량
+5. 목재
+6. 석재
+7. 철광
+8. 음식
+```
 
 
 
