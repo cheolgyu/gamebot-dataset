@@ -150,9 +150,48 @@ def gg_v9():
             data = "9 0.967578 0.041667 0.044531 0.075000\n"
             f.write(data)
             f.close()
+def gg_x1():
+    # 창닫기
+    path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/수령x_t1/"
+    file_list = os.listdir(path)
+    for file in file_list:
+        if file.endswith(".jpg")  :
+            arr = file.split(".")
+            file_txt = path+arr[0]+".txt"
+            if os.path.exists(file_txt):
+                os.remove(file_txt)
+            f = open(file_txt, 'w')
+            data = "1 0.949609 0.766667 0.061719 0.116667\n"+\
+                    "8 0.843359 0.695833 0.033594 0.069444\n"+\
+                    "8 0.758984 0.691667 0.038281 0.055556\n"+\
+                    "8 0.753906 0.762500 0.035937 0.063889\n"+\
+                    "8 0.705859 0.705556 0.036719 0.069444\n"+\
+                    "8 0.688672 0.747917 0.035156 0.059722\n"+\
+                    "8 0.623438 0.679861 0.037500 0.062500\n"+\
+                    "8 0.600391 0.768056 0.032031 0.063889\n"+\
+                    "8 0.541016 0.738194 0.038281 0.068056\n"+\
+                    "3 0.392578 0.073611 0.033594 0.055556\n"
+            f.write(data)
+            f.close()
+def gg_x2():
+    # 창닫기
+    path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/수령x_t2/"
+    file_list = os.listdir(path)
+    for file in file_list:
+        if file.endswith(".jpg")  :
+            arr = file.split(".")
+            file_txt = path+arr[0]+".txt"
+            if os.path.exists(file_txt):
+                os.remove(file_txt)
+            f = open(file_txt, 'w')
+            data = "3 0.389453 0.068056 0.039844 0.052778\n"
+            f.write(data)
+            f.close()            
+gg_x1()
+gg_x2()
 # gg_v8()
 # gg_v9()
-ee()          
+# ee()          
 #  rm ds/ds_gotgl/img/gotgl_video_2*
 #  rm ds/ds_gotgl/img/gotgl_video_3*
 #  rm ds/ds_gotgl/img/gotgl_video_4*
@@ -162,4 +201,6 @@ ee()
 # cp ds/ds_gotgl/식량_목재_석재_철과_음식_확대사진/* ds/ds_gotgl/img/
 # cp ds/ds_gotgl/v8/* ds/ds_gotgl/img/
 # cp ds/ds_gotgl/v9/* ds/ds_gotgl/img/
-# ./yolo_mark ./ds/ds_gotgl/v8 ./train.txt ./data.names
+# cp ds/ds_gotgl/수령x_t1/* ds/ds_gotgl/img/
+# cp ds/ds_gotgl/수령x_t2/* ds/ds_gotgl/img/
+# ./yolo_mark ./ds/ds_gotgl/수령x_t1 ./train.txt ./data.names
