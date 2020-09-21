@@ -23,12 +23,15 @@ sync.sh 보고 원드라이브 실행시키면댐.
 ./yolo_mark ds/ds_gotgl/v6 cap_video /home/cheolgyu/다운로드/gotgl_video_6.mp4 10
 ./yolo_mark ds/ds_gotgl/v7 cap_video /home/cheolgyu/다운로드/gotgl_video_7.mp4 10
 ./yolo_mark ds/ds_gotgl/v8 cap_video /home/cheolgyu/다운로드/gotgl_video_8.mp4 10
+./yolo_mark ds/ds_gotgl/v9 cap_video /home/cheolgyu/다운로드/gotgl_video_9.mp4 10
 
 ./yolo_mark ./ds/ds_gotgl/old/img_2 ./train.txt ./data.names
 ./yolo_mark ./ds/ds_gotgl/v1_2 ./train.txt ./data.names
 ./yolo_mark ./ds/ds_gotgl/v1_1 ./train.txt ./data.names
+./yolo_mark ./ds/ds_gotgl/v9 ./train.txt ./data.names
+
 ```
-0. 수령
+0. 수령 - > 이미지 하단 위주로 다시라벨링.
 1. 도움
 2. 수령확인
 3. 상태바- > 할리스아이콘으로
@@ -37,6 +40,7 @@ sync.sh 보고 원드라이브 실행시키면댐.
 6. 석재
 7. 철광
 8. 음식
+9. 창닫기
 ```
 
 

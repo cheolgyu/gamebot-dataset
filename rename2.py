@@ -79,9 +79,10 @@ def ee():
 #ee()
 
 # 카메라 가장높게+ 식량+목재+....+상태바+수령   
-path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/v8/"
-file_list = os.listdir(path)
-def ff_t1():
+
+def gg_v8():
+    path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/v8/"
+    file_list = os.listdir(path)
     for file in file_list:
         if file.endswith(".jpg")  :
             arr = file.split(".")
@@ -89,7 +90,7 @@ def ff_t1():
             if os.path.exists(file_txt):
                 os.remove(file_txt)
             f = open(file_txt, 'w')
-            data = "0 0.885938 0.777083 0.073437 0.126389\n"+\
+            data = "0 0.883203 0.802083 0.069531 0.073611\n"+\
                 "1 0.955078 0.769444 0.061719 0.119444\n"+\
                 "3 0.391797 0.068056 0.033594 0.052778\n"+\
                 "4 0.757812 0.691667 0.037500 0.063889\n"+\
@@ -132,8 +133,25 @@ def ff_t1():
 
             f.write(data)
             f.close()
-ff_t1()              
-     
+# ff_t1()             
+
+
+def gg_v9():
+    # 창닫기
+    path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/v9/"
+    file_list = os.listdir(path)
+    for file in file_list:
+        if file.endswith(".jpg")  :
+            arr = file.split(".")
+            file_txt = path+arr[0]+".txt"
+            if os.path.exists(file_txt):
+                os.remove(file_txt)
+            f = open(file_txt, 'w')
+            data = "9 0.967578 0.041667 0.044531 0.075000\n"
+            f.write(data)
+            f.close()
+gg_v8()
+#gg_v9()
             
 #  rm ds/ds_gotgl/img/gotgl_video_2*
 #  rm ds/ds_gotgl/img/gotgl_video_3*
@@ -142,4 +160,4 @@ ff_t1()
 # cp ds/ds_gotgl/img_2/* ds/ds_gotgl/img/
 # cp ds/ds_gotgl/img_3/* ds/ds_gotgl/img/
 # cp ds/ds_gotgl/img_4/* ds/ds_gotgl/img/
-# ./yolo_mark ./ds/ds_gotgl/img_4/ ./train.txt ./data.names
+# ./yolo_mark ./ds/ds_gotgl/식량_목재_석재_철과_음식_확대사진/ ./train.txt ./data.names
