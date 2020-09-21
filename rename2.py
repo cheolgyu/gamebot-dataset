@@ -63,9 +63,9 @@ def dd():
 #dd()
 
  # /img/ 수령+도움+상태바
-path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/img/"
-file_list = os.listdir(path)
 def ee():
+    path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/수령_도움_할리스_독사진/"
+    file_list = os.listdir(path)
     for file in file_list:
         if file.endswith(".jpg")  :
             arr = file.split(".")
@@ -73,7 +73,7 @@ def ee():
             if os.path.exists(file_txt):
                 os.remove(file_txt)
             f = open(file_txt, 'w')
-            data = "0 0.876562 0.782639 0.078125 0.112500\n"+"1 0.951172 0.765278 0.057031 0.102778\n"+"3 0.392969 0.066667 0.032812 0.058333\n"
+            data = "0 0.883203 0.802083 0.069531 0.073611\n"+"1 0.951172 0.765278 0.057031 0.102778\n"+"3 0.392969 0.066667 0.032812 0.058333\n"
             f.write(data)
             f.close()
 #ee()
@@ -150,14 +150,16 @@ def gg_v9():
             data = "9 0.967578 0.041667 0.044531 0.075000\n"
             f.write(data)
             f.close()
-gg_v8()
-#gg_v9()
-            
+# gg_v8()
+# gg_v9()
+ee()          
 #  rm ds/ds_gotgl/img/gotgl_video_2*
 #  rm ds/ds_gotgl/img/gotgl_video_3*
 #  rm ds/ds_gotgl/img/gotgl_video_4*
 #  rm ds/ds_gotgl/img/gotgl_video_5*
-# cp ds/ds_gotgl/img_2/* ds/ds_gotgl/img/
-# cp ds/ds_gotgl/img_3/* ds/ds_gotgl/img/
-# cp ds/ds_gotgl/img_4/* ds/ds_gotgl/img/
-# ./yolo_mark ./ds/ds_gotgl/식량_목재_석재_철과_음식_확대사진/ ./train.txt ./data.names
+# cp ds/ds_gotgl/수령_도움_할리스_독사진/* ds/ds_gotgl/img/
+# cp ds/ds_gotgl/수령_확인/* ds/ds_gotgl/img/
+# cp ds/ds_gotgl/식량_목재_석재_철과_음식_확대사진/* ds/ds_gotgl/img/
+# cp ds/ds_gotgl/v8/* ds/ds_gotgl/img/
+# cp ds/ds_gotgl/v9/* ds/ds_gotgl/img/
+# ./yolo_mark ./ds/ds_gotgl/v8 ./train.txt ./data.names
