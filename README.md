@@ -30,7 +30,48 @@ sync.sh 보고 원드라이브 실행시키면댐.
 ./yolo_mark ./ds/ds_gotgl/v1_1 ./train.txt ./data.names
 ./yolo_mark ./ds/ds_gotgl/v9 ./train.txt ./data.names
 
+fivestars
+./yolo_mark ds/ds_fivestars/v1 cap_video /home/cheolgyu/다운로드/fivestars_v1.mp4 10
+./yolo_mark ds/ds_fivestars/v2 cap_video /home/cheolgyu/다운로드/fivestars_v2.mp4 10
+./yolo_mark ds/ds_fivestars/v3 cap_video /home/cheolgyu/다운로드/fivestars_v3.mp4 10
+./yolo_mark ds/ds_fivestars/v4 cap_video /home/cheolgyu/다운로드/fivestars_v4.mp4 10
+./yolo_mark ds/ds_fivestars/v5 cap_video /home/cheolgyu/다운로드/fivestars_v5.mp4 10
+./yolo_mark ds/ds_fivestars/v6 cap_video /home/cheolgyu/다운로드/fivestars_v6.mp4 10
+./yolo_mark ds/ds_fivestars/v7 cap_video /home/cheolgyu/다운로드/fivestars_v7.mp4 10
+./yolo_mark ds/ds_fivestars/v8 cap_video /home/cheolgyu/다운로드/fivestars_v8.mp4 10
+
+./yolo_mark ./ds/ds_fivestars/0_쾌시작 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/1_쾌정보-확인 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/2_전투시작 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/3_월드맵 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/4_건너뛰기 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/5_쾌스트보상-확인 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/6_렙업확인 ./train.txt ./data.names
+./yolo_mark ./ds/ds_fivestars/7_컨텐츠오픈확인 ./train.txt ./data.names
+-확인
 ```
+fivestars
+
+0. 쾌시작
+1. 쾌정보-확인
+2. 전투시작
+3. 월드맵
+4. 건너뛰기
+5. 쾌스트보상-확인
+6. 렙업확인
+7. 컨텐츠오픈 확인
+
+```
+
+
+
+
+
+
+
+```
+왕좌의게임
+
 0. 수령 - > 이미지 하단 위주로 다시라벨링.
 1. 도움
 2. 수령확인
@@ -42,16 +83,6 @@ sync.sh 보고 원드라이브 실행시키면댐.
 8. 음식
 9. 창닫기
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 1	우측-쾌완료-아이콘
