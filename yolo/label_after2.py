@@ -7,8 +7,8 @@ import math
 project="blackdesertm"
 project_id="project_1"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_fivestars/img"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_fivestars/img"
+img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_fivestars/img3"
+txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_fivestars/img3"
 project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/fivestars/project_1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
