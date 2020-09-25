@@ -48,6 +48,18 @@ fivestars
 ./yolo_mark ./ds/ds_fivestars/5_쾌스트보상-확인 ./train.txt ./data.names
 ./yolo_mark ./ds/ds_fivestars/6_렙업확인 ./train.txt ./data.names
 ./yolo_mark ./ds/ds_fivestars/7_컨텐츠오픈확인 ./train.txt ./data.names
+
+./yolo_mark ds/ds_gotgl/v10 cap_video /home/cheolgyu/다운로드/gotgl_video_10.mp4 10
+./yolo_mark ds/ds_gotgl/v11 cap_video /home/cheolgyu/다운로드/gotgl_video_11.mp4 10
+./yolo_mark ds/ds_gotgl/v12 cap_video /home/cheolgyu/다운로드/gotgl_video_12.mp4 10
+./yolo_mark ds/ds_gotgl/v13 cap_video /home/cheolgyu/다운로드/gotgl_video_13.mp4 10
+./yolo_mark ds/ds_gotgl/v14 cap_video /home/cheolgyu/다운로드/gotgl_video_14.mp4 10
+./yolo_mark ds/ds_gotgl/v15 cap_video /home/cheolgyu/다운로드/gotgl_video_15.mp4 10
+./yolo_mark ds/ds_gotgl/v16 cap_video /home/cheolgyu/다운로드/gotgl_video_16.mp4 10
+./yolo_mark ds/ds_gotgl/v17 cap_video /home/cheolgyu/다운로드/gotgl_video_17.mp4 10
+./yolo_mark ds/ds_gotgl/v18 cap_video /home/cheolgyu/다운로드/gotgl_video_18.mp4 10
+./yolo_mark ds/ds_gotgl/v19 cap_video /home/cheolgyu/다운로드/gotgl_video_19.mp4 10
+
 -확인
 ```
 fivestars
@@ -72,16 +84,17 @@ fivestars
 ```
 왕좌의게임
 
-0. 수령 - > 이미지 하단 위주로 다시라벨링.
-1. 도움
-2. 수령확인
-3. 상태바- > 할리스아이콘으로
-4. 식량
-5. 목재
-6. 석재
-7. 철광
-8. 음식
-9. 창닫기
+        0. 수령 
+        1. 수령x5
+        2. 수령확인
+        3. 도움
+        4. 할리스
+        5. 식량
+        6. 목재
+        7. 석재
+        8. 철광
+        9. 음식
+        10. 창닫기
 ```
 
 
