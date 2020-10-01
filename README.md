@@ -60,6 +60,24 @@ fivestars
 ./yolo_mark ds/ds_gotgl/v18 cap_video /home/cheolgyu/다운로드/gotgl_video_18.mp4 10
 ./yolo_mark ds/ds_gotgl/v19 cap_video /home/cheolgyu/다운로드/gotgl_video_19.mp4 10
 
+illusionc
+./yolo_mark ds/ds_illusionc/v1 cap_video /home/cheolgyu/다운로드/illusionc_1.mp4 10
+./yolo_mark ds/ds_illusionc/v2 cap_video /home/cheolgyu/다운로드/illusionc_2.mp4 10
+./yolo_mark ds/ds_illusionc/v3 cap_video /home/cheolgyu/다운로드/illusionc_3.mp4 10
+./yolo_mark ds/ds_illusionc/v4 cap_video /home/cheolgyu/다운로드/illusionc_4.mp4 10
+./yolo_mark ds/ds_illusionc/v5 cap_video /home/cheolgyu/다운로드/illusionc_5.mp4 10
+./yolo_mark ds/ds_illusionc/v6 cap_video /home/cheolgyu/다운로드/illusionc_6.mp4 10
+./yolo_mark ds/ds_illusionc/v7 cap_video /home/cheolgyu/다운로드/illusionc_7.mp4 10
+./yolo_mark ds/ds_illusionc/v8 cap_video /home/cheolgyu/다운로드/illusionc_8.mp4 10
+./yolo_mark ds/ds_illusionc/v9 cap_video /home/cheolgyu/다운로드/illusionc_9.mp4 10
+
+./yolo_mark ./ds/ds_illusionc/도전 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/o_스킵 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/승리 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/알림 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/o_쾌시작 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/o_패배 ./train.txt ./data.names
+./yolo_mark ./ds/ds_illusionc/o_보상획득 ./train.txt ./data.names
 -확인
 ```
 fivestars

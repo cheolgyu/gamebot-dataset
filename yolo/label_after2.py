@@ -7,9 +7,9 @@ import math
 project="blackdesertm"
 project_id="project_1"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/new_img"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/new_img"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/gotgl/project_16"
+img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_illusionc/img"
+txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_illusionc/img"
+project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/illusionc/p1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
 
