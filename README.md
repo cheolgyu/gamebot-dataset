@@ -6,7 +6,37 @@ gamebot-dataset/ds
 sync.sh 보고 원드라이브 실행시키면댐.
 
 ## a3랑,스톤은 ssd_mobile이고 바람은 yolo 
+## sk2(세븐나이츠2) 
+```
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_001.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_002.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_003.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_004.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_005.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_006.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_007.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_008.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_009.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0010.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0011.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0012.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0013.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0014.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0015.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0016.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0017.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0018.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0019.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0020.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0021.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0022.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0023.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0024.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0025.mp4 10
+./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0026.mp4 10
 
+
+```
 ./yolo_mark ds/ds_blackdesertm/img cap_video ./blackdesertm_2020-09-09-07-52-28.mp4 10
 
 ./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_1.mp4 10
