@@ -10,14 +10,14 @@ import math
 # project_1/1~7 수동으로 바꾸면서 valid.txt 업데이트 시키기 
 # open a모드(파일 내용 추가)로 되어있는지 보기  
 project="sk2"
-project_id="project_1"
+project_id="project_3"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_1/"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_1/"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/sk2/project_1"
+img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_3/"
+txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_3/"
+project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/sk2/project_3"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
-
+dir_list=["1","2","2_1","3","4","5_0_0","5_0_1","5_1","6","7","7_1","8","9","10","11"]
 
 def one_dir(inp_img_path,inp_txt_path):
     txt_file_list = os.listdir(inp_txt_path)
@@ -68,6 +68,6 @@ def one_dir(inp_img_path,inp_txt_path):
         f.write(inp_img_path+filename+"\n")
     f.close()
 
-dir_list=["1","2","3","4","5","5_1","6","7","7_1"]
+
 for dir in dir_list:
     one_dir(img_path+dir,txt_path+dir)
