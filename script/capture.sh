@@ -34,18 +34,21 @@
 # sh cap.sh 30 &
 # sh cap.sh 31 &
 # sh cap.sh 322 &
-sh cap.sh 33 &
-sh cap.sh 34 &
-sh cap.sh 35 &
-sh cap.sh 36 &
-sh cap.sh 37 &
-sh cap.sh 38 &
-sh cap.sh 39 &
-sh cap.sh 40 &
-sh cap.sh 41 &
-sh cap.sh 42 &
-sh cap.sh 43 &
-sh cap.sh 44 &
-sh cap.sh 45 &
-sh cap.sh 46 &
-sh cap.sh 47 &
+# sh cap.sh 33 &
+# sh cap.sh 34 &
+# sh cap.sh 35 &
+# sh cap.sh 36 &
+# sh cap.sh 37 &
+# sh cap.sh 38 &
+# sh cap.sh 39 &
+# sh cap.sh 40 &
+# sh cap.sh 41 &
+# sh cap.sh 42 &
+# sh cap.sh 43 &
+# sh cap.sh 44 &
+# sh cap.sh 45 &
+# sh cap.sh 46 &
+# sh cap.sh 47 &
+sh cap.sh 48 &
+sh cap.sh 49 &
+sh cap.sh 50 &
