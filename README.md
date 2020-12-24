@@ -1,9 +1,9 @@
 # gamebot-dataset
 
-녹화 -> script/capture.sh, 스샷 만들기 : ds_sk2/img   
+녹화한것 스샷 만들기 ==> script/capture.sh, 이미지폴더 : ds_sk2/img   
 스샷 폴더분류하기 ds_sk2/img ==> ds_sk2/project_n/1..999   
 분류한 폴더에 어노테이션파일 생성하기 ==> rename2_sk2.py   
-
+yoloy train.txt, valild.txt 만들기 ==> yolo/label_after2.py
 
 
 ## sk2(세븐나이츠2) 
