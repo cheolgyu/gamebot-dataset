@@ -217,11 +217,11 @@ class p5:
         mk_file(inp_dir,inp_data)
     def dir_1_1_0():
         inp_dir = img_patrh_p5+"/1_1_0/"
-        inp_data = "\n"
+        inp_data = "0 0.933277 0.924174 0.077703 0.109610\n"
         mk_file(inp_dir,inp_data)
     def dir_1_1_1():
         inp_dir = img_patrh_p5+"/1_1_1/"
-        inp_data = "0 0.933277 0.924174 0.077703 0.109610\n"
+        inp_data = "\n"
         mk_file(inp_dir,inp_data)
     def dir_14():
         inp_dir = img_patrh_p5+"/14/"
