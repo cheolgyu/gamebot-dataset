@@ -5,6 +5,8 @@ img_patrh =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project
 img_patrh_p2 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_2"
 img_patrh_p3 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_3"
 img_patrh_p4 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_4"
+img_patrh_p5 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_5"
+
 img_patrh_p3 = img_patrh_p4
 def mk_file(inp_dir,inp_data):
     file_list = os.listdir(inp_dir)
@@ -199,7 +201,7 @@ class p3:
 class p4:
     def reg_team():
         #  12 팀편성
-        inp_dir = img_patrh_p4+"/12/"
+        inp_dir = img_patrh_p5+"/12/"
         inp_data = "17 0.500000 0.498457 0.913194 0.651235\n18 0.486979 0.650463 0.477431 0.331790\n19 0.601562 0.715278 0.197917 0.158951\n"
         mk_file(inp_dir,inp_data)
     def mini_popup_close():
@@ -208,21 +210,37 @@ class p4:
         inp_data = "20 0.293837 0.401235 0.556424 0.709877\n21 0.296441 0.109568 0.459201 0.120370\n22 0.492622 0.105710 0.070312 0.128086\n"
         mk_file(inp_dir,inp_data)
 
-p3.p3_dir_1()
-p3.p3_dir_2()
-p3.p3_dir_2_1()
-p3.p3_dir_2_2()
-p3.p3_dir_3()
-p3.p3_dir_4()
-p3.p3_dir_5_0_0()
-p3.p3_dir_5_0_1()
-p3.p3_dir_5_1()
-p3.p3_dir_6()
-p3.p3_dir_7()
-p3.p3_dir_7_1()
-p3.p3_skip()
-p3.p3_skip_popup()
-p3.p3_smartkey_off()
-p3.p3_smartkey_on()
-p4.reg_team()
-p4.mini_popup_close()
+class p5:
+    def dir_1_0():
+        inp_dir = img_patrh_p5+"/1_0/"
+        inp_data = "\n"
+        mk_file(inp_dir,inp_data)
+    def dir_1_1_0():
+        inp_dir = img_patrh_p5+"/1_1_0/"
+        inp_data = "\n"
+        mk_file(inp_dir,inp_data)
+    def dir_1_1_1():
+        inp_dir = img_patrh_p5+"/1_1_1/"
+        inp_data = "24 0.933277 0.924174 0.077703 0.109610\n"
+        mk_file(inp_dir,inp_data)
+    def dir_14():
+        inp_dir = img_patrh_p5+"/14/"
+        inp_data = "23 0.522059 0.492972 0.727376 0.638554\n"
+        mk_file(inp_dir,inp_data)
+    def dir_15():
+        inp_dir = img_patrh_p5+"/15/"
+        inp_data = "0.956291 0.050000 0.058007 0.088406\n"
+        mk_file(inp_dir,inp_data)
+
+    def dir_16():
+        inp_dir = img_patrh_p5+"/16/"
+        inp_data = "\n"
+        mk_file(inp_dir,inp_data)
+
+
+p5.dir_14()
+p5.dir_15()
+p5.dir_16()
+p5.dir_1_0()
+p5.dir_1_1_0()
+p5.dir_1_1_1()

@@ -1,114 +1,76 @@
 # gamebot-dataset
 
-gamebot-dataset/ds
+녹화 -> script/capture.sh, 스샷 만들기 : ds_sk2/img   
+스샷 폴더분류하기 ds_sk2/img ==> ds_sk2/project_n/1..999   
+분류한 폴더에 어노테이션파일 생성하기 ==> rename2_sk2.py   
 
-## 라벨링정보는 구글드라이브에 있고
-sync.sh 보고 원드라이브 실행시키면댐.
 
-## a3랑,스톤은 ssd_mobile이고 바람은 yolo 
+
 ## sk2(세븐나이츠2) 
 ```
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_001.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_002.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_003.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_004.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_005.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_006.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_007.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_008.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_009.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0010.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0011.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0012.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0013.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0014.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0015.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0016.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0017.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0018.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0019.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0020.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0021.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0022.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0023.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0024.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0025.mp4 10
-./yolo_mark ds/ds_sk2/img cap_video /home/cheolgyu/다운로드/sk2_0026.mp4 10
+분류한 폴더 정보
 
 
+p5
+        16. 비슷한객체들+ 홈.x 
+        15. 비슷한객체들+ 홈.o
+        14. 죽음
+p4
+        13. 미니팝업
+        12. 팀편성
+p3
+        11. 스마트키on
+        10. 스마트키off
+        9. 스킵팝업
+        8. 스킵화면
+        7. 분해결과-2개
+        7-1. 분해결과-3개
+        6. 분해팝업
+        5_1. 분해아이템선택 일반.off, 고급off,홈
+        5_0_1. 분해아이템선택화면-일반.on/off,고급.on/off,홈
+        5_0_0. 분해아이템선택화면-일반.on/off,고급.on/off,홈
+        4. 분해선택활성화-일반,고급,홈
+        3. 가방기본화면-분해좌,홈
+        2_1. 기본모드-가방풀,스마트키on
+        2. 기본모드-가방풀
+        1. 절전화면.방치형o.가방가득.o
+p5
+        1_1_0. 절전화면.방치형x.가방가득o
+        1_1_1. 절전화면.방치형x.가방가득x
+        1_0. 절전화면.방치형o.가방가득.x
+p2        
 ```
-./yolo_mark ds/ds_blackdesertm/img cap_video ./blackdesertm_2020-09-09-07-52-28.mp4 10
+```
+인식객체 좌표정보
+0 0.956291 0.050000 0.058007 0.088406   --홈
+1 0.933415 0.906522 0.066176 0.140580   --절전풀.방치o
+2 0.097631 0.057246 0.090686 0.097101   --전체풀
+3 0.769608 0.775362 0.225490 0.136232   --분해좌
+4 0.645016 0.675362 0.100490 0.081159   --일반
+5 0.743056 0.674638 0.097222 0.073913   --고급
+6 0.903595 0.771014 0.181373 0.168116   --분해우
+7 0.230801 0.547826 0.100490 0.168116   --금화위치.분해결과2.분해선택
+7 0.184641 0.547101 0.086601 0.157971   --금화위치.분해결과3.분해선택
 
-./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_1.mp4 10
-./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_2.mp4 10
-./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_3.mp4 10
-./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_4.mp4 10
-./yolo_mark ds/ds_v4/img cap_video /home/cheolgyu/다운로드/video_5.mp4 10
-./yolo_mark ds/ds_v4/img cap_video ./video_6.mp4 10
+8 0.524101 0.500000 0.776961 0.515942   --분해팝업창
+9 0.613971 0.663043 0.247549 0.155072   --분해팝업창.확인
+10 0.428922 0.479710 0.104575 0.171014  --금화위치.분해결과2
+10 0.361928 0.484783 0.104575 0.169565  --금화위치.분해결과3
+11 0.498775 0.221014 0.178922 0.120290  --분해결과.텍스트
+12 0.928102 0.072500 0.119361 0.085000  --스킵
+13 0.613715 0.699846 0.204861 0.121914  --스킵확인
+14 0.387587 0.699074 0.203993 0.111111  --스킵취소
+15 0.879229 0.790833 0.121241 0.208333  --스마.off
+16 0.879229 0.790833 0.121241 0.208333  --스마.on
+17 0.500000 0.498457 0.913194 0.651235  --팀교체.전체
+18 0.486979 0.650463 0.477431 0.331790  --팀교체.중간
+19 0.601562 0.715278 0.197917 0.158951  --팀교체.진행
+20 0.293837 0.401235 0.556424 0.709877  --도움.전체
+21 0.296441 0.109568 0.459201 0.120370  --도움.중간
+22 0.492622 0.105710 0.070312 0.128086  --도움.닫기
+23 0.522059 0.492972 0.727376 0.638554  --전투패배팝업
+24 0.933277 0.924174 0.077703 0.109610  --절전풀.방치x
 
-
-./yolo_mark ds/ds_gotgl/img cap_video ./gotgl_video_1.mp4 10
-./yolo_mark ds/ds_gotgl_tmp/img cap_video /home/cheolgyu/다운로드/gotgl_video_4.mp4  5
-./yolo_mark ds/ds_gotgl_tmp/img cap_video /home/cheolgyu/다운로드/gotgl_video_5.mp4  5
-./yolo_mark ds/ds_gotgl/v6 cap_video /home/cheolgyu/다운로드/gotgl_video_6.mp4 10
-./yolo_mark ds/ds_gotgl/v7 cap_video /home/cheolgyu/다운로드/gotgl_video_7.mp4 10
-./yolo_mark ds/ds_gotgl/v8 cap_video /home/cheolgyu/다운로드/gotgl_video_8.mp4 10
-./yolo_mark ds/ds_gotgl/v9 cap_video /home/cheolgyu/다운로드/gotgl_video_9.mp4 10
-
-./yolo_mark ./ds/ds_gotgl/old/img_2 ./train.txt ./data.names
-./yolo_mark ./ds/ds_gotgl/v1_2 ./train.txt ./data.names
-./yolo_mark ./ds/ds_gotgl/v1_1 ./train.txt ./data.names
-./yolo_mark ./ds/ds_gotgl/v9 ./train.txt ./data.names
-
-fivestars
-./yolo_mark ds/ds_fivestars/v1 cap_video /home/cheolgyu/다운로드/fivestars_v1.mp4 10
-./yolo_mark ds/ds_fivestars/v2 cap_video /home/cheolgyu/다운로드/fivestars_v2.mp4 10
-./yolo_mark ds/ds_fivestars/v3 cap_video /home/cheolgyu/다운로드/fivestars_v3.mp4 10
-./yolo_mark ds/ds_fivestars/v4 cap_video /home/cheolgyu/다운로드/fivestars_v4.mp4 10
-./yolo_mark ds/ds_fivestars/v5 cap_video /home/cheolgyu/다운로드/fivestars_v5.mp4 10
-./yolo_mark ds/ds_fivestars/v6 cap_video /home/cheolgyu/다운로드/fivestars_v6.mp4 10
-./yolo_mark ds/ds_fivestars/v7 cap_video /home/cheolgyu/다운로드/fivestars_v7.mp4 10
-./yolo_mark ds/ds_fivestars/v8 cap_video /home/cheolgyu/다운로드/fivestars_v8.mp4 10
-
-./yolo_mark ./ds/ds_fivestars/0_쾌시작 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/1_쾌정보-확인 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/2_전투시작 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/3_월드맵 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/4_건너뛰기 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/5_쾌스트보상-확인 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/6_렙업확인 ./train.txt ./data.names
-./yolo_mark ./ds/ds_fivestars/7_컨텐츠오픈확인 ./train.txt ./data.names
-
-./yolo_mark ds/ds_gotgl/v10 cap_video /home/cheolgyu/다운로드/gotgl_video_10.mp4 10
-./yolo_mark ds/ds_gotgl/v11 cap_video /home/cheolgyu/다운로드/gotgl_video_11.mp4 10
-./yolo_mark ds/ds_gotgl/v12 cap_video /home/cheolgyu/다운로드/gotgl_video_12.mp4 10
-./yolo_mark ds/ds_gotgl/v13 cap_video /home/cheolgyu/다운로드/gotgl_video_13.mp4 10
-./yolo_mark ds/ds_gotgl/v14 cap_video /home/cheolgyu/다운로드/gotgl_video_14.mp4 10
-./yolo_mark ds/ds_gotgl/v15 cap_video /home/cheolgyu/다운로드/gotgl_video_15.mp4 10
-./yolo_mark ds/ds_gotgl/v16 cap_video /home/cheolgyu/다운로드/gotgl_video_16.mp4 10
-./yolo_mark ds/ds_gotgl/v17 cap_video /home/cheolgyu/다운로드/gotgl_video_17.mp4 10
-./yolo_mark ds/ds_gotgl/v18 cap_video /home/cheolgyu/다운로드/gotgl_video_18.mp4 10
-./yolo_mark ds/ds_gotgl/v19 cap_video /home/cheolgyu/다운로드/gotgl_video_19.mp4 10
-
-illusionc
-./yolo_mark ds/ds_illusionc/v1 cap_video /home/cheolgyu/다운로드/illusionc_1.mp4 10
-./yolo_mark ds/ds_illusionc/v2 cap_video /home/cheolgyu/다운로드/illusionc_2.mp4 10
-./yolo_mark ds/ds_illusionc/v3 cap_video /home/cheolgyu/다운로드/illusionc_3.mp4 10
-./yolo_mark ds/ds_illusionc/v4 cap_video /home/cheolgyu/다운로드/illusionc_4.mp4 10
-./yolo_mark ds/ds_illusionc/v5 cap_video /home/cheolgyu/다운로드/illusionc_5.mp4 10
-./yolo_mark ds/ds_illusionc/v6 cap_video /home/cheolgyu/다운로드/illusionc_6.mp4 10
-./yolo_mark ds/ds_illusionc/v7 cap_video /home/cheolgyu/다운로드/illusionc_7.mp4 10
-./yolo_mark ds/ds_illusionc/v8 cap_video /home/cheolgyu/다운로드/illusionc_8.mp4 10
-./yolo_mark ds/ds_illusionc/v9 cap_video /home/cheolgyu/다운로드/illusionc_9.mp4 10
-
-./yolo_mark ./ds/ds_illusionc/도전 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/o_스킵 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/승리 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/알림 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/o_쾌시작 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/o_패배 ./train.txt ./data.names
-./yolo_mark ./ds/ds_illusionc/o_보상획득 ./train.txt ./data.names
--확인
 ```
 fivestars
 

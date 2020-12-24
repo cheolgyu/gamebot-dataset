@@ -49,6 +49,30 @@
 # sh cap.sh 45 &
 # sh cap.sh 46 &
 # sh cap.sh 47 &
-sh cap.sh 48 &
-sh cap.sh 49 &
-sh cap.sh 50 &
+# sh cap.sh 48 &
+# sh cap.sh 49 &
+# sh cap.sh 50 &
+sh cap.sh 51 &
+sh cap.sh 52 &
+sh cap.sh 53 &
+sh cap.sh 54 &
+sh cap.sh 55 &
+sh cap.sh 56 &
+sh cap.sh 57 &
+sh cap.sh 58 &
+sh cap.sh 59 &
+sh cap.sh 60 &
+sh cap.sh 61 &
+sh cap.sh 62 &
+sh cap.sh 63 &
+sh cap.sh 64 &
+sh cap.sh 65 &
+sh cap.sh 66 &
+sh cap.sh 67 &
+sh cap.sh 68 &
+sh cap.sh 69 &
+sh cap.sh 70 &
+sh cap.sh 71 &
+sh cap.sh 72 &
+sh cap.sh 73 &
+
