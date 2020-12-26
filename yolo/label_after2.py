@@ -10,15 +10,15 @@ import math
 # project_1/1~7 수동으로 바꾸면서 valid.txt 업데이트 시키기 
 # open a모드(파일 내용 추가)로 되어있는지 보기  
 project="sk2"
-project_id="project_5"
+project_id="project_6"
 ratio=0.1
 img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_5/"
 txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_5/"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/sk2/project_5"
+project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/sk2/project_6"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
-dir_list=["1_1_0","1_1_1","1","2","2_1","2_2","3","4","5_0_0","5_0_1","5_1","6","7","7_1","8","9","10","11","12","13","14","15","16"]
-
+dir_list=["1_1_0","1_0","1_1_1","1","2","2_1","2_2","3","4","5_0_0","5_0_1","5_1","6","7","7_1","8","9","10","11","12","13","14","15","16"]
+dir_list=["1_1_0","1_0","1_1_1","1"]
 def one_dir(inp_img_path,inp_txt_path):
     txt_file_list = os.listdir(inp_txt_path)
 
