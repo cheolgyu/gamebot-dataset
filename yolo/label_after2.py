@@ -17,7 +17,7 @@ txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/p1/"
 project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/gotgl/p1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
-dir_list=["gotgl_001","gotgl_002","gotgl_003","gotgl_004","gotgl_005","gotgl_007","gotgl_009"]
+dir_list=["gotgl_001","gotgl_002","gotgl_003","gotgl_004","gotgl_007","gotgl_009"]
 def one_dir(inp_img_path,inp_txt_path):
     txt_file_list = os.listdir(inp_txt_path)
 
