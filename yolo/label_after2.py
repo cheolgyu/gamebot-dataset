@@ -9,15 +9,15 @@ import math
 # 스크린별로 분류해 폴더로 저장후에 
 # project_1/1~7 수동으로 바꾸면서 valid.txt 업데이트 시키기 
 # open a모드(파일 내용 추가)로 되어있는지 보기  
-project="kor"
+project="gotgl"
 project_id="p1"
 ratio=0.1
-img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_kor/p1/"
-txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_kor/p1/"
-project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/kor/p1"
+img_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/p1/"
+txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_gotgl/p1/"
+project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/gotgl/p1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
-dir_list=["kor_001"]
+dir_list=["gotgl_001","gotgl_002","gotgl_003","gotgl_004","gotgl_005","gotgl_007","gotgl_009"]
 def one_dir(inp_img_path,inp_txt_path):
     txt_file_list = os.listdir(inp_txt_path)
 

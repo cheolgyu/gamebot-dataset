@@ -17,8 +17,8 @@ sh cap.sh 12 &
 sh cap.sh 13 &
 sh cap.sh 14 &
 sh cap.sh 15 &
-# sh cap.sh 16 &
-# sh cap.sh 17 &
+ sh cap.sh 16 &
+ sh cap.sh 17 &
 # sh cap.sh 18 &
 # sh cap.sh 19 &
 # sh cap.sh 20 &
