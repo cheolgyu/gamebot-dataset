@@ -6,6 +6,7 @@ img_patrh_p2 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/proj
 img_patrh_p3 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_3"
 img_patrh_p4 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_4"
 img_patrh_p5 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_5"
+img_patrh_p7 =  "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_sk2/project_7"
 
 img_patrh_p3 = img_patrh_p4
 def mk_file(inp_dir,inp_data):
@@ -237,10 +238,27 @@ class p5:
         inp_data = "\n"
         mk_file(inp_dir,inp_data)
 
+class p7:
+    def dir_17():
+        inp_dir = img_patrh_p5+"/17/"
+        inp_data = "24 0.036482 0.052711 0.054864 0.095382\n"
+        mk_file(inp_dir,inp_data)
+    def dir_18():
+        inp_dir = img_patrh_p5+"/18/"
+        inp_data = "25 0.797511 0.901104 0.079186 0.135542\n"
+        mk_file(inp_dir,inp_data)
+    def dir_19():
+        inp_dir = img_patrh_p5+"/19/"
+        inp_data = "26 0.488971 0.445783 0.235860 0.361446\n27 0.828337 0.906627 0.244910 0.122490\n"
+        mk_file(inp_dir,inp_data)
+    def dir_20():
+        inp_dir = img_patrh_p5+"/20/"
+        inp_data = "24 0.036482 0.052711 0.054864 0.095382\n15 0.879229 0.790833 0.121241 0.208333\n"
+        mk_file(inp_dir,inp_data)
+    def dir_21():
+        inp_dir = img_patrh_p5+"/21/"
+        inp_data = "26 0.488971 0.445783 0.235860 0.361446\n28 0.828337 0.906627 0.244910 0.122490\n"
+        mk_file(inp_dir,inp_data)
 
-p5.dir_14()
-p5.dir_15()
-p5.dir_16()
-p5.dir_1_0()
-p5.dir_1_1_0()
-p5.dir_1_1_1()
+
+

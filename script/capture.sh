@@ -2,23 +2,23 @@
 
 # chmod +x ./capture.sh
 
-sh cap.sh 1   &
-sh cap.sh 2  &
-sh cap.sh 3  &
-sh cap.sh 4  &
-sh cap.sh 5  &
-sh cap.sh 6  &
-sh cap.sh 7  &
-sh cap.sh 8  &
-sh cap.sh 9  &
-sh cap.sh 10 &
-sh cap.sh 11 &
-sh cap.sh 12 &
-sh cap.sh 13 &
-sh cap.sh 14 &
-sh cap.sh 15 &
- sh cap.sh 16 &
- sh cap.sh 17 &
+# sh cap.sh 1   &
+# sh cap.sh 2  &
+# sh cap.sh 3  &
+# sh cap.sh 4  &
+# sh cap.sh 5  &
+# sh cap.sh 6  &
+# sh cap.sh 7  &
+# sh cap.sh 8  &
+# sh cap.sh 9  &
+# sh cap.sh 10 &
+# sh cap.sh 11 &
+# sh cap.sh 12 &
+# sh cap.sh 13 &
+# sh cap.sh 14 &
+# sh cap.sh 15 &
+#  sh cap.sh 16 &
+#  sh cap.sh 17 &
 # sh cap.sh 18 &
 # sh cap.sh 19 &
 # sh cap.sh 20 &
@@ -75,4 +75,12 @@ sh cap.sh 15 &
 # sh cap.sh 71 &
 # sh cap.sh 72 &
 # sh cap.sh 73 &
+sh cap.sh 74 &
+sh cap.sh 75 &
+sh cap.sh 76 &
+sh cap.sh 77 &
+sh cap.sh 78 &
+sh cap.sh 79 &
+sh cap.sh 80 &
+sh cap.sh 81 &
 
