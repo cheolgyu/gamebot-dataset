@@ -21,13 +21,13 @@ def dir_1_4():
     
     for i in  range(1, 5):
         inp_dir = img_patrh+dir_name+"%s/" %i
-        inp_data = "0 0.067797 0.360377 0.055085 0.060377\n6 0.951801 0.582075 0.062500 0.115094\n"
+        inp_data = "0 0.067029 0.358521 0.077899 0.096463\n6 0.951801 0.582075 0.062500 0.115094\n"
         mk_file(inp_dir,inp_data)
 def dir_5_6():
     
     for i in  range(5, 7):
         inp_dir = img_patrh+dir_name+"%s/" %i
-        inp_data = "0 0.067797 0.360377 0.055085 0.060377\n5 0.951801 0.582075 0.062500 0.115094\n"
+        inp_data = "0 0.067029 0.358521 0.077899 0.096463\n5 0.951801 0.582075 0.062500 0.115094\n"
         mk_file(inp_dir,inp_data)
 
 
@@ -51,8 +51,8 @@ def dir_11():
     inp_dir = img_patrh+dir_name+"11/"
     inp_data = "2 0.435911 0.554717 0.126059 0.098113\n"
     mk_file(inp_dir,inp_data)      
-def dir_12_17():
-    for i in  range(12, 18):
+def dir_16_17():
+    for i in  range(16, 18):
         inp_dir = img_patrh+dir_name+"%s/" %i
         inp_data = "6 0.951801 0.582075 0.062500 0.115094\n"
         mk_file(inp_dir,inp_data)    
@@ -71,7 +71,11 @@ def dir_20():
 def dir_21():
     inp_dir = img_patrh+dir_name+"21/"
     inp_data = "5 0.951801 0.582075 0.062500 0.115094\n"
-    mk_file(inp_dir,inp_data)               
+    mk_file(inp_dir,inp_data)       
+def dir_22():
+    inp_dir = img_patrh+dir_name+"22/"
+    inp_data = "0 0.067029 0.358521 0.077899 0.096463\n5 0.951801 0.582075 0.062500 0.115094\n"
+    mk_file(inp_dir,inp_data)             
 dir_1_4()
 dir_5_6()
 dir_7()
@@ -79,9 +83,9 @@ dir_8()
 dir_9()
 dir_10()
 dir_11()
-dir_12_17()
+dir_16_17()
 dir_18()
 dir_19()
 dir_20()
 dir_21()
-    
+dir_22()    
