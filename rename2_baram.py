@@ -17,11 +17,17 @@ def mk_file(inp_dir,inp_data):
             f.close()    
 
 dir_name = "/baram_00"
-def dir_1_6():
+def dir_1_4():
     
-    for i in  range(1, 7):
+    for i in  range(1, 5):
         inp_dir = img_patrh+dir_name+"%s/" %i
-        inp_data = "0 0.067797 0.360377 0.055085 0.060377\n"
+        inp_data = "0 0.067797 0.360377 0.055085 0.060377\n6 0.069915 0.360377 0.061441 0.067925\n"
+        mk_file(inp_dir,inp_data)
+def dir_5_6():
+    
+    for i in  range(5, 7):
+        inp_dir = img_patrh+dir_name+"%s/" %i
+        inp_data = "0 0.067797 0.360377 0.055085 0.060377\n6 0.069915 0.360377 0.061441 0.067925\n5 0.069915 0.360377 0.061441 0.067925\n"
         mk_file(inp_dir,inp_data)
 
 
@@ -47,7 +53,8 @@ def dir_11():
     mk_file(inp_dir,inp_data)      
 
     
-dir_1_6()
+dir_1_4()
+dir_5_6()
 dir_7()
 dir_8()
 dir_9()
