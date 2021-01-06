@@ -17,7 +17,7 @@ txt_path = "/home/cheolgyu/workspace/gamebot/gamebot-dataset/ds/ds_baram/p1/"
 project_path = "/home/cheolgyu/workspace/gamebot/gamebot-yolo/workspace/baram/p1"
 project_train_file= project_path+"/train.txt"
 project_valid_file= project_path+"/valid.txt"
-dir_list=["baram_001","baram_0010","baram_0011","baram_002","baram_003","baram_004","baram_005","baram_006","baram_007","baram_008","baram_009"]
+dir_list=["baram_0019","baram_0020","baram_0021","baram_001","baram_0011","baram_0013","baram_0015","baram_0017","baram_002","baram_004","baram_006","baram_008","baram_0010","baram_0012","baram_0014","baram_0016","baram_0018","baram_003","baram_005","baram_007","baram_009"]
 
 def one_dir(inp_img_path,inp_txt_path):
     print(inp_txt_path)
